@@ -1,0 +1,18 @@
+[
+    {
+        "id": "ADM001",
+        "name": "Administrator DigBook",
+        "email": "admin@digbook.com",
+        "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC\/.og\/at2uheWG\/igi.",
+        "role": "admin",
+        "created_at": "2026-11-18 08:00:00"
+    },
+    {
+        "id": "USR_6afdd4cedd97e",
+        "name": "salzabilla",
+        "email": "salzabilla@gmail.com",
+        "password": "$2y$10$RGXxBuDtq.T8XW2YBJk3n.HH.TpJYRB3wnFg\/hF37UbhwydzslLYi",
+        "role": "member",
+        "created_at": "2026-11-18 16:39:42"
+    }
+]

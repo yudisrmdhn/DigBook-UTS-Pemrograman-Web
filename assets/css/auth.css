@@ -1,0 +1,61 @@
+
+/* =================================
+   MEMBER DASHBOARD
+================================= */
+
+.profile-card {
+    background: #fff8f1;
+    border: 1px solid #eadbd4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.profile-card h3 {
+    color: #651b36;
+    margin-bottom: 16px;
+}
+
+.profile-info p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    color: #49353b;
+}
+
+.dashboard-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.dashboard-actions a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 13px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dashboard-actions .btn-primary {
+    background: #651b36;
+    color: white;
+}
+
+.dashboard-secondary {
+    background: #f5e9e2;
+    color: #651b36;
+    border: 1px solid #eadbd4;
+}
+
+.dashboard-logout {
+    color: #a52a2a;
+    border: 1px solid #f3caca;
+    background: #fff5f5;
+}
+
+.dashboard-actions a:hover {
+    opacity: 0.85;
+}
