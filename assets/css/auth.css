@@ -1,7 +1,186 @@
 
-/* =================================
+/* =====================================
+   DIGBOOK - AUTHENTICATION & DASHBOARD
+===================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8f1e9;
+    color: #49353b;
+}
+
+/* =====================================
+   LOGIN & REGISTER
+===================================== */
+
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    background:
+        radial-gradient(circle at top left, #ead5c9, transparent 40%),
+        linear-gradient(135deg, #f8f1e9, #f2e4da);
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 440px;
+    background: #fffdfb;
+    border: 1px solid #eadbd4;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 45px rgba(75, 35, 48, 0.12);
+}
+
+/* Header */
+
+.auth-header {
+    padding: 35px 25px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #651b36, #842e4c);
+}
+
+.auth-header h1 {
+    margin: 0 0 10px;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.auth-header p {
+    margin: 0;
+    font-size: 13px;
+    color: #f3dfe5;
+    line-height: 1.5;
+}
+
+/* Content */
+
+.auth-content {
+    padding: 32px;
+}
+
+.auth-content h2 {
+    margin: 0 0 8px;
+    color: #651b36;
+    font-size: 25px;
+}
+
+.subtitle {
+    color: #88747a;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Form */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #49353b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #e4d5cf;
+    border-radius: 8px;
+    background: #fffaf7;
+    color: #49353b;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #842e4c;
+    box-shadow: 0 0 0 3px rgba(132, 46, 76, 0.10);
+}
+
+.form-group input::placeholder {
+    color: #b4a3a3;
+}
+
+/* Button */
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #651b36;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background: #842e4c;
+    transform: translateY(-1px);
+}
+
+/* Alert */
+
+.alert {
+    padding: 12px 14px;
+    border-radius: 7px;
+    margin-bottom: 18px;
+    font-size: 13px;
+}
+
+.alert-error {
+    background: #fff0f0;
+    color: #a52a2a;
+    border: 1px solid #f3caca;
+}
+
+/* Footer */
+
+.auth-footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: #88747a;
+}
+
+.auth-footer a,
+.back-link {
+    color: #842e4c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.auth-footer a:hover,
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* =====================================
    MEMBER DASHBOARD
-================================= */
+===================================== */
 
 .profile-card {
     background: #fff8f1;
@@ -58,4 +237,22 @@
 
 .dashboard-actions a:hover {
     opacity: 0.85;
+}
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media (max-width: 480px) {
+    .auth-container {
+        padding: 15px;
+    }
+
+    .auth-content {
+        padding: 24px 20px;
+    }
+
+    .auth-header h1 {
+        font-size: 30px;
+    }
 }

@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #f8f1e9;
+    color: #49353b;
+}
+
+.transaction-container {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.transaction-header {
+    background: #651b36;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.transaction-header h1 {
+    margin: 0 0 8px;
+}
+
+.transaction-header p {
+    margin: 0;
+    color: #f3dfe5;
+}
+
+.transaction-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(75, 35, 48, 0.08);
+}
+
+.transaction-card h2 {
+    color: #651b36;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #eadbd4;
+}
+
+th {
+    background: #f5e9e2;
+    color: #651b36;
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.borrowed {
+    background: #fff0c2;
+    color: #8a6200;
+}
+
+.returned {
+    background: #d9f5df;
+    color: #18753b;
+}
+
+.empty {
+    text-align: center;
+    padding: 25px;
+    color: #88747a;
+}
+
+.notice {
+    background: #d9f5df;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #651b36;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    .transaction-card {
+        padding: 15px;
+    }
+}

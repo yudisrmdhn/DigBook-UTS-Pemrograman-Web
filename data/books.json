@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Pemrograman Web Modern",
+        "author": "Tim DigBook",
+        "category": "Programming",
+        "description": "Mempelajari konsep, praktik, dan pengembangan aplikasi web modern.",
+        "image": "book-1.jpg",
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "title": "Algoritma dan Struktur Data",
+        "author": "Tim DigBook",
+        "category": "Programming",
+        "description": "Memahami algoritma, struktur data, dan penerapannya dalam pemrograman.",
+        "image": "book-2.jpg",
+        "stock": 5
+    },
+    {
+        "id": 3,
+        "title": "Basis Data",
+        "author": "Tim DigBook",
+        "category": "Database",
+        "description": "Mengenal konsep basis data, SQL, relasi tabel, dan pengelolaan data.",
+        "image": "book-3.jpg",
+        "stock": 5
+    },
+    {
+        "id": 4,
+        "title": "Kecerdasan Buatan",
+        "author": "Tim DigBook",
+        "category": "Technology",
+        "description": "Mengenal kecerdasan buatan dan penerapannya dalam kehidupan sehari-hari.",
+        "image": "book-4.jpg",
+        "stock": 5
+    },
+    {
+        "id": 5,
+        "title": "Data Science dan Analisis Data",
+        "author": "Tim DigBook",
+        "category": "Data Science",
+        "description": "Mempelajari pengolahan data, analisis, dan dasar machine learning.",
+        "image": "book-5.jpg",
+        "stock": 5
+    },
+    {
+        "id": 6,
+        "title": "Jaringan Komputer",
+        "author": "Tim DigBook",
+        "category": "Technology",
+        "description": "Memahami jaringan komputer, perangkat jaringan, dan komunikasi data.",
+        "image": "book-6.jpg",
+        "stock": 5
+    }
+]
